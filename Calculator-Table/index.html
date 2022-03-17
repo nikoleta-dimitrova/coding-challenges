@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>First Test</title>
+</head>
+
+<body>
+    <section id="background">
+        <div class="blue">
+            <div class="css">CSS IS FUN</div>
+        </div>
+
+        <div class="body-calculator">
+            <div class="calculator-lines">
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+            </div>
+            <div class="black-box"><p id="calculator-output"></p></div>
+            <div class="calculator-table">
+                <table>
+                    <tr id="first-row">
+                        <td><button onclick="clearOutput()">MC</button></td>
+                        <td><button onclick="">M+</button></td>
+                        <td><button onclick="">M-</button></td>
+                        <td><button onclick="">MR</button></td>
+                    </tr>
+                    <tr>
+                        <td id="number-button"><button value="7" onclick="changeOutput(7)">7</button></td>
+                        <td id="number-button"><button value="8" onclick="changeOutput(8)">8</button></td>
+                        <td id="number-button"><button value="9" onclick="changeOutput(9)">9</button></td>
+                        <td id="white-button"><button value="-" onclick="changeOutput(' - ')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td id="number-button"><button value="4" onclick="changeOutput(4)">4</button></td>
+                        <td id="number-button"><button value="5" onclick="changeOutput(5)">5</button></td>
+                        <td id="number-button"><button value="6" onclick="changeOutput(6)">6</button></td>
+                        <td id="white-button"><button value="/" onclick="changeOutput(' / ')">/</button></td>
+                    </tr>
+                    <tr>
+                        <td id="number-button"><button value="1" onclick="changeOutput(1)">1</button></td>
+                        <td id="number-button"><button value="2" onclick="changeOutput(2)">2</button></td>
+                        <td id="number-button"><button value="3" onclick="changeOutput(3)">3</button></td>
+                        <td id="white-button"><button value="*" onclick="changeOutput(' * ')">x</button></td>
+                    </tr>
+                    <tr>
+                        <td id="number-button"><button value="0" onclick="changeOutput(0)">0</button></td>
+                        <td id="white-button"><button value="." onclick="">.</button></td>
+                        <td id="white-button"><button value="=" onclick="changeOutput(' = ')">=</button></td>
+                        <td id="white-button"><button value="+" onclick="changeOutput(' + ')">+</button></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

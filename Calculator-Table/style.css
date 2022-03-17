@@ -1,0 +1,138 @@
+.body-calculator table {
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+#first-row td {
+	background-image: linear-gradient(to right, #a1410c, #c98336);
+	padding: 5px;
+}
+#first-row button {
+	background-color: transparent;
+	border-radius: 30%;
+	border: none;
+	background-color: #d6732f;
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+	width: 55px;
+	height: 55px;
+	cursor: pointer;
+}
+
+#white-button {
+	background-image: linear-gradient(to right, #828282, #f6f0ee);
+	padding: 5px;
+}
+
+#white-button button {
+	width: 55px;
+	height: 55px;
+	background-color: transparent;
+	border-radius: 30%;
+	border: none;
+	background-color: #e3e0df;
+	font-size: 20px;
+	padding: 10px;
+	color: black;
+	cursor: pointer;
+}
+
+#number-button {
+	background-image: linear-gradient(to right, #1b2528, #485555);
+	padding: 5px;
+}
+
+#number-button button {
+	width: 55px;
+	height: 55px;
+	background-color: transparent;
+	border-radius: 30%;
+	border: none;
+	background-color: #3b4949;
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.blue {
+	width: 60%;
+	height: 90vh;
+	background-color: rgb(8, 115, 136);
+	margin-left: 20%;
+	margin-top: 2%;
+	display: inline-block;
+}
+
+.body-calculator {
+	background-color: #c4c8c3;
+	position: absolute;
+	top: 65px;
+	left: 37%;
+	width: 350px;
+	height: 80vh;
+	border-radius: 5px;
+}
+
+.css {
+	background-color: rgb(147, 159, 164);
+	position: absolute;
+	top: 90px;
+	left: 39%;
+	width: 70px;
+	height: 2vh;
+	border: 2px solid black;
+	font-size: 10px;
+	font-weight: 600;
+	z-index: 1;
+	text-align: center;
+}
+
+
+.body-calculator hr {
+	margin-bottom: 5px;
+	height: 2px;
+	background-color: #595b4c;
+}
+
+.calculator-lines {
+	margin-top: 15px;
+}
+
+.calculator-table {
+	padding: 10px;
+	background-image: linear-gradient(to right, #bdbeb8, #999a94);
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+.black-box {
+	width: 80%;
+	height: 100px;
+	background-color: rgb(0, 0, 0);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#calculator-output {
+	color: red;
+	float: right;
+	margin-top: 15%;
+	margin-right: 10px;
+	font-size: 25px;
+}
+
+
+

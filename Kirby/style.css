@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image:url(images/kirby.jpg);
+	width: 100%;
+	min-height: 60vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.kirby {
+	margin-left: 37%;
+	margin-top: 15%;
+	animation-name: jump;
+	animation-duration: 1.6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+
+@keyframes jump {
+	40%, 70% {
+	  transform: translateY(-10rem);
+	}
+	80% {
+	  transform: translateY(-9rem);
+	}
+	90% {
+	  transform: translateY(0);
+	}
+}
+
+.kirby_body {
+	position: relative;
+	background: #ff9dc9;
+	width: 26rem;
+	height: 51vh;
+	border-radius: 50%;
+	transform: rotateX(10deg);
+	border: 14px solid black;
+	z-index: 1;
+}
+
+#left_eye {
+	background: black;
+	border-radius: 50%;
+	width: 9%;
+	height: 27%;
+	transform: rotate(351deg) translateX(10rem) translateY(7rem);
+}
+
+#right_eye {
+	background: black;
+	border-radius: 50%;
+	width: 9%;
+	height: 27%;
+	transform: rotate(351deg) translateX(16.5rem) translateY(1rem);
+}
+
+.blue_eyes {
+	width: 65%;
+	height: 59%;
+	transform: translateY(1.9rem) translateX(0.4rem);
+	background: #0063cc;
+	border-radius: 50%;
+}
+
+.black_in_eyes {
+	width: 85%;
+	height: 70%;
+	background: black;
+	border-radius: 50%;
+	transform: translateX(0.1rem);
+}
+
+.white_eyes {
+	width: 100%;
+	height: 90%;
+	background: white;
+	border-radius: 50%;
+	transform: translateY(-4rem);
+}
+
+#left_eyebrow {
+	background: black;
+	width: 4.5rem;
+	height: 0.7rem;
+	border-radius: 30%;
+	transform: rotate(25deg) translateX(6rem) translateY(-10.3rem);
+}
+
+#right_eyebrow {
+	background: black;
+	width: 4.5rem;
+	height: 0.7rem;
+	border-radius: 30%;
+	transform: rotate(325deg) translateX(17rem) translateY(1.6rem);
+}
+
+.left_cheek {
+	width: 15%;
+	height: 8.5%;
+	background: #e6649b;
+	border-radius: 50%;
+	transform: rotate(-5deg) translateX(7rem) translateY(-1.6rem);
+}
+
+.right_cheek {
+	width: 12%;
+	height: 7%;
+	background: #e6649b;
+	border-radius: 50%;
+	transform: rotate(-18deg) translateX(21.5rem) translateY(1rem);
+}
+
+#mouth {
+	width: 4rem;
+	height: 18vh;
+	border: solid 9px #000;
+	border-color: #000 transparent transparent transparent;
+	border-radius: 89% 100px 0 0;
+	transform: translateX(13.5rem) translateY(-4.6rem);
+}
+
+#left_hand {
+	width: 30%;
+	height: 20%;
+	background: #ff9dc9;
+	border-radius: 90% 180px 0 0;
+	transform: rotate(255deg) translateX(15rem) translateY(-1rem);
+	border: 16px solid black;
+	border-color: #000 #000 transparent #000;
+}
+
+#right_hand {
+	width: 20%;
+	height: 10%;
+	background: #ff9dc9;
+	border-radius: 90% 110px 15px 0;
+	transform: rotate(-250deg);
+	margin-top: -20rem;
+	margin-left: 23.7rem;
+	border: 14px solid black;
+	border-color: #000 #000 black #000;
+}
+
+#left_foot {
+	position: absolute;
+	width: 15%;
+	height: 12%;
+	background: #f20079;
+	margin-top: -3rem;
+	margin-left: 2rem;
+	border-radius: 80% 280px 50% 290%;
+	transform: rotate(-10deg) scaleX(-1);
+	border: 10px solid black;
+}
+
+#right_foot {
+	position: absolute;
+	width: 15%;
+	height: 12%;
+	background: #f20079;
+	margin-top: -3.5rem;
+	margin-left: 16.5rem;
+	border-radius: 80% 280px 50% 290%;
+	transform: rotate(-10deg) scaleX(-1, 1);
+	border: 10px solid black;
+	z-index: -1;
+}
+
+
+
+

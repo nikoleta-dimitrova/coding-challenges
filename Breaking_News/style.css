@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(172, 43, 43, 0.687), rgba(23, 2, 2, 0.7)), url(images/world.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+    overflow: hidden;
+    animation-name: moving;
+    animation-duration: 40s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@keyframes moving{
+100%{
+    background-position: 3000px 0px;
+}
+}
+
+.box_breaking{
+    width: 40rem;
+    height: 15rem;
+    background-color: white;
+    margin-left: 20rem;
+    margin-right: auto;
+    transform:skew(-10deg) translateY(7rem);
+    box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.589);
+    position: absolute;
+    animation-name: breaking;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@keyframes breaking {
+   
+        50% {margin-left: 30%;}
+
+}
+
+#text_breaking{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform:skew(1deg) translateY(2rem);
+    text-transform: uppercase;
+    color:rgba(172, 43, 43);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 900;
+    font-size: 9.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.box_news{
+    width: 40rem;
+    height: 17rem;
+    background-color: rgb(0, 0, 0);
+    margin-right: auto;
+    transform:skew(-10deg) translateY(20rem) translateX(35rem);
+    box-shadow: 20px 20px 20px 0 rgba(90, 5, 5, 0.326);   
+    position: absolute;
+    z-index: -1;
+    animation-name: news;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes news {
+   
+    50% {margin-left: 7%;}
+
+}
+
+
+#text_news{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform:skew(1deg) translateY(1rem);
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 900;
+    font-size: 12.5rem;
+    letter-spacing: 0.7rem;
+}
+
+#earth{
+width: 5rem;
+margin-left: 40rem;
+margin-top: 18.5rem;
+position: absolute;
+z-index: -1;
+animation-name: spin,scale,rotate;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@keyframes spin{
+    
+        0%   { left: 400px;  }  
+        70%  { left: -350px; }
+        100% { left: 400px;  }
+      
+}
+
+@keyframes scale {
+    0%  { transform: scale(1);z-index: -3;}
+    32% { transform: scale(0.7); z-index:-3; ease-in; }
+    60% { transform: scale(1);z-index:-1; animation-timing-function:  ease-in;  }
+    75% { transform: scale(1.2);  animation-timing-function:  ease-in-out; }
+    86% { transform: scale(1.2); z-index:1 }  
+    98% { transform: scale(1.2);z-index:1 }
+    100%{ transform: scale(1); }
+  }
+   
+  @keyframes rotate {
+    0% { background-position: 0px; }
+    100% { background-position: 190px; }
+  }
