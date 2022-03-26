@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+/* intro */
+#intro h1{
+    color: red;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: translateX(21rem) translateY(5rem);
+    font-size: 2.5rem;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+#intro img{
+    position: absolute;
+    width: 28rem;
+    transform: translateX(36rem) translateY(11rem);
+}
+
+#intro button{
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(255, 182, 25);
+    border-radius: 2rem;
+    position: absolute;
+    font-size: 1rem;
+    font-family: 'Dela Gothic One', cursive;
+    transform: translateX(45rem) translateY(37.5rem);
+    border: none;
+    cursor: pointer;
+}
+
+.slide-show {
+    left: 0; right: 0;
+    margin: auto;
+    width: 75rem;
+    height: 40rem;
+    position: absolute;
+    visibility: hidden;
+}
+
+/* first scene */
+#first-scene{
+    position: absolute;
+    background-image: url(images/background_garden.png);
+    background-size: 75rem 40rem;
+    margin-top: 2rem;
+    animation-name: first-scene;
+    animation-duration: 9s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes first-scene {
+    90%,100%{opacity: 0; visibility: hidden;}
+}
+
+#first-scene #phineas{
+width: 20rem;
+position: absolute;
+margin-top: 15.8rem;
+margin-left: 12rem;
+animation-name: phineas;
+animation-duration: 3s;
+animation-iteration-count: 3;
+}
+
+@keyframes phineas {
+    0%{transform: rotateY(-20deg);}
+    50% {transform: rotateY(-180deg);}
+}
+
+#first-scene #ferb{
+width: 13rem;
+position: absolute;
+margin-top: 16rem;
+margin-left: 32rem;
+}
+
+#first-scene #thinking{
+    width: 11rem;
+    position: absolute;
+    margin-top: 11rem;
+    margin-left: 18.5rem;
+}
+
+
+/* second scene */
+.earlier{
+color: white;
+margin-top: 18rem;
+margin-left: 13.2rem;
+font-size: 5rem;
+font-family: 'Dela Gothic One', cursive;
+}
+
+/* third scene */
+#third-scene{
+position: absolute;
+background-image: url(images/office.jpg);
+background-size: 75rem 40rem;
+margin-top: 2rem;  
+}
+
+/* fouth scene */
+#forth-scene{
+    position: absolute;
+    background-image: url(images/office_wall.jpg);
+    background-size: 75rem 40rem;
+    margin-top: 2rem;  
+}
+
+#doof{
+    width: 35rem;
+    margin-left: 40rem;
+    margin-top: 2rem;
+}
+
+.doof-walk {
+    animation-name: doof;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+
+@keyframes doof {
+    70% {margin-left: -2rem;}
+    100% {margin-left: -2rem;}
+}
+
+/* fifth scene */
+#fifth-scene{
+    position: absolute;
+    background-image: url(images/door.jpg);
+    background-size: 75rem 40rem;
+    margin-top: 2rem;  
+}
+
+#perry_before{
+    width:18rem;
+    margin-top: 26rem;
+    margin-left: 18.8rem;
+    position: absolute;
+}
+
+.door_doof{
+    width: 30rem;
+    position: absolute;
+    margin-left: 34rem;
+    margin-top: 1rem;
+}
+
+/* sixth scene */
+#sixth-scene{
+    position: absolute;
+    background-image: url(images/door.jpg);
+    background-size: 75rem 40rem;
+    margin-top: 2rem;
+}
+
+.door_doof{
+    width: 30rem;
+    position: absolute;
+    margin-left: 34rem;
+    margin-top: 1rem;
+}
+
+#smoke{
+    position: absolute;
+    width: 37rem;
+    margin-top: 20rem;
+    margin-left: 11rem;
+}
+
+.smoke_effect{
+    animation-name: smoke;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+
+@keyframes smoke {
+    50%{opacity: 0; }
+}
+
+/* seventh scene */
+#seventh-scene{
+    position: absolute;
+    background-image: url(images/door.jpg);
+    background-size: 75rem 40rem;
+    margin-top: 2rem;
+}
+
+#end_doof{
+    width: 25rem;
+    position: absolute;
+    margin-left: 39rem;
+    margin-top: 7rem;
+}
+
+.doof_move{
+  animation-name: doofMove;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes doofMove {
+    50%{margin-right: 2rem;}
+}
+
+#perry_end{
+    position: absolute;
+    width: 9rem;
+    margin-top: 21rem;
+    margin-left: 23rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
