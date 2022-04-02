@@ -1,0 +1,129 @@
+body {
+    background: rgba(0, 0, 0, 0.986);
+  }
+  
+  h1{
+    color: #adc178;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Dela Gothic One', cursive;
+    text-transform: uppercase;
+    word-spacing: .6rem;
+  }
+
+  h2{
+      color: #dde5b6;
+      text-align: center;
+      font-size: 1.5rem;
+      font-family: 'Dela Gothic One', cursive;
+      font-weight: 500;
+      word-spacing: .2rem;
+  }
+
+  h3{
+    margin-top: 350px;
+    text-align: center;
+    font-family:'Dela Gothic One', cursive;
+    font-weight: 400;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.white {
+    position: relative;
+    background: #e9ecef;
+    width: 8%;
+    height: 400px;
+    margin: 0 2px;
+    cursor: pointer;
+    box-shadow: 4px 4px 1px rgb(82, 82, 82);
+  }
+  
+
+  .black1{
+    position: absolute;
+    top: 14.5rem;
+    background: rgb(34, 32, 32);
+    margin-left: -62.5rem;
+    width: 4.5%;
+    height: 14.5rem;
+    z-index: 1;
+    box-shadow: 5px 2px 3px black;
+  }
+
+  .black2{
+    position: absolute;
+    top: 14.5rem;
+    background: rgb(34, 32, 32);
+    margin-left: -47rem;
+    width: 4.5%;
+    height: 14.5rem;
+    z-index: 1;
+    box-shadow: 5px 2px 3px black;
+  }
+
+  .black3{
+    position: absolute;
+    top: 14.5rem;
+    background: rgb(34, 32, 32);
+    margin-left: -16rem;
+    width: 4.5%;
+    height: 14.5rem;
+    z-index: 1;
+    box-shadow: 5px 2px 3px black;
+  }
+
+  .black4{
+    position: absolute;
+    top: 14.5rem;
+    background: rgb(34, 32, 32);
+    margin-left: 0.2rem;
+    width: 4.5%;
+    height: 14.5rem;
+    z-index: 1;
+    box-shadow: 5px 2px 3px black;
+  }
+
+  .black5{
+    position: absolute;
+    top: 14.5rem;
+    background: rgb(34, 32, 32);
+    margin-left: 16rem;
+    width: 4.5%;
+    height: 14.5rem;
+    z-index: 1;
+    box-shadow: 5px 2px 3px black;
+  }
+
+  .black6{
+    position: absolute;
+    top: 14.5rem;
+    background: rgb(34, 32, 32);
+    margin-left: 47rem;
+    width: 4.5%;
+    height: 14.5rem;
+    z-index: 1;
+    box-shadow: 5px 2px 3px black;
+  }
+
+  .black7{
+    position: absolute;
+    top: 14.5rem;
+    background: rgb(34, 32, 32);
+    margin-left: 63rem;
+    width: 4.5%;
+    height: 14.5rem;
+    z-index: 1;
+    box-shadow: 5px 2px 3px black;
+  }
+
+
+  
+
+ 
