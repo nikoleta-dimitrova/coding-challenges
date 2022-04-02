@@ -4,3 +4,4 @@ http://i477363.hera.fhict.nl/Kirby/ <br>
 http://i477363.hera.fhict.nl/Clock/ <br>
 http://i477363.hera.fhict.nl/JS-toUpperCase/ <br>
 http://i477363.hera.fhict.nl/Polaroid/ <br>
+http://i477363.hera.fhict.nl/Cartoon <br>
