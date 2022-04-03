@@ -7,3 +7,4 @@ http://i477363.hera.fhict.nl/Polaroid/ <br>
 http://i477363.hera.fhict.nl/Cartoon <br>
 http://i477363.hera.fhict.nl/Piano/ <br>
 http://i477363.hera.fhict.nl/Cube/ <br>
+http://i477363.hera.fhict.nl/Accordion/ <br>
