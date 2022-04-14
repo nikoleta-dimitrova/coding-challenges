@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0b090a;
+}
+
+h1 {
+    font-size: 5.5rem;
+    color: #a4161a;
+    font-weight: 400;
+    font-family: 'Alfa Slab One', cursive;
+    transform: translateY(4rem);
+    margin-left: 33rem;
+
+}
+
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 200;
+    transform: translateY(4rem);
+    color: #d8d8d8;
+    margin-left: 28rem;
+}
+
+#action {
+    margin-top: 12rem;
+    margin-left: 39.5rem;
+    font-size: 1.65rem;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 200;
+    border-radius: 1rem;
+    background: #d8d8d8;
+    border: none;
+    height: 3rem;
+}
+
+textarea {
+    resize: none;
+    width: 13rem;
+    height: 8rem;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: .9rem;
+    margin-top: -7rem;
+    margin-left: 24rem;
+    border-radius: 3rem;
+    background-color: transparent;
+    border: 1px solid #d8d8d8;
+    color: white;
+}
+
+#play {
+    background-color:#d8d8d8 ;
+    border: none;
+    width: 8rem;
+    height: 5rem;
+    font-size: 2.1rem;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: black;
+ margin-left: 42rem;
+}
+
+#battle{
+    background-color: #d8d8d8;
+    border: none;
+    width: 8rem;
+    height: 5rem;
+    font-size: 2.1rem;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: black;
+    margin-left: 1.5rem;
+}

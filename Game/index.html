@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>Battle Game</title>
+</head>
+
+<body>
+    <h1>Death battle</h1>
+    <h2>Click Play and then keep hit Battle until someone dies.</h2>
+    <input type='text' id='action' value='Battle action' />
+    <div id='status'>
+        <textarea id='p1' class='text'></textarea>
+        <textarea id='p2' class='text'></textarea>
+    </div>
+    <br />
+
+    <input type='button' id='play' class='play' value='Play' onclick='playGame()' />
+
+    <input type='button' id='battle' class='battle' value='Battle' onclick='battleGame()' />
+
+    <script src="script.js"></script>
+</body>
+
+</html>
