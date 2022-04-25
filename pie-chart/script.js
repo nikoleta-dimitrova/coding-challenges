@@ -1,40 +1,50 @@
+//-------------------- SETUP BLOCK-------------------
+const data = {
+    labels: ['Rap/Hiphop', 'Pop', 'Rock', 'Jazz', 'RnB', 'Folk'],
+    datasets: [{
+        label: '# of Votes',
+        data: [15, 22, 10, 4, 7, 2],
+        backgroundColor: [
+            'rgba(169, 131, 216)',
+            'rgba(106, 180, 241)',
+            'rgba(139, 229, 157)',
+            'rgba(249, 241, 118)',
+            'rgba(255, 173, 133)',
+            'rgba(236, 138, 131)'
+        ],
+        borderColor: [
+            'rgba(90, 25, 169)',
+            'rgba(0, 102, 186)',
+            'rgba(56, 128, 71)',
+            'rgba(176, 165, 15)',
+            'rgba(211, 110, 59)',
+            'rgba(178, 42, 32)'
+        ],
+        borderWidth: 2
+    }]
+};
 
-window.onload = function () {
 
-var chart = new CanvasJS.Chart("chartContainer", {
-	theme: "light2",
-	animationEnabled: true,
-	title: {
-		text: "Shares of Electricity Generation by Fuel"
-	},
-	subtitles: [{
-		text: "United Kingdom, 2016",
-		fontSize: 16
-	}],
-	data: [{
-		type: "pie",
-		indexLabelFontSize: 18,
-		radius: 80,
-		indexLabel: "{label} - {y}",
-		yValueFormatString: "###0.0\"%\"",
-		click: explodePie,
-		dataPoints: [
-			{ y: 42, label: "Gas" },
-			{ y: 21, label: "Nuclear"},
-			{ y: 24.5, label: "Renewable" },
-			{ y: 9, label: "Coal" },
-			{ y: 3.1, label: "Other Fuels" }
-		]
-	}]
-});
-chart.render();
+//------------------- CONFIG BLOCK----------------------
+const config = {
+    type: 'pie',
+    data, //refers to the code we wrote in the setup 
+    options: {
+        plugins: {
+            legend: {
+                labels: {
+                    font: {
+                        size: 14
+                    }
+                }
+            }
+        }
+    }
+};
 
-function explodePie(e) {
-	for(var i = 0; i < e.dataSeries.dataPoints.length; i++) {
-		if(i !== e.dataPointIndex)
-			e.dataSeries.dataPoints[i].exploded = false;
-	}
-}
- 
-}
+//-------------------RENDER BLOCK----------------------
+const myChart = new Chart(
+    document.getElementById('chart'),
+    config //refurs to the code we wrote in the configuration 
+);
 
