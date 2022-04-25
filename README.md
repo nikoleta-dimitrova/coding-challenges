@@ -11,3 +11,4 @@ http://i477363.hera.fhict.nl/Accordion/ <br>
 http://i477363.hera.fhict.nl/Drum-kit/ <br>
 http://i477363.hera.fhict.nl/Hanoi/ <br>
 http://i477363.hera.fhict.nl/Chat/ <br>  
+http://i477363.hera.fhict.nl/Pie-Chart/ <br>
