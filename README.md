@@ -15,4 +15,6 @@ http://i477363.hera.fhict.nl/Chat/ <br>
 http://i477363.hera.fhict.nl/Counter/ <br> 
 http://i477363.hera.fhict.nl/Pie-Chart/ <br>
 http://i477363.hera.fhict.nl/Quotes/ <br>
+http://i477363.hera.fhict.nl/Logo/ <br>
+
 
