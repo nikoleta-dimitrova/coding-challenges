@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-color: #faf3ff;
+}
+
+#logo, #logo-copy{
+    width: 90rem;
+    height: auto;
+    position: absolute;
+    transform: translate(30rem, 8rem);
+    animation: color 1s linear;
+    animation-fill-mode: forwards;
+}
+
+.letter-d, .letter-n, .chunk-n, .chunk-d{
+    stroke: #54318c;
+    stroke-width: 3px;
+    fill: transparent;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: outline 10s linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}  
+
+.letter-d-copy, .letter-n-copy, .chunk-n-copy, .chunk-d-copy{
+    opacity: 0%;
+    fill: #54318c;
+    animation: color 1s linear;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+#name{
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: 800;
+    color: #54318c;
+    position: absolute;
+    transform: translate(38rem, 35rem);
+    font-size: 2.5rem;
+    animation: color 1s linear;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes outline {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes color {
+    to {
+        opacity: 100%;
+    }
+}
+
+
+
