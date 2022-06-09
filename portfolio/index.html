@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <section class="home-page">
+        <header>
+            <a href="index.html"><img id="logo" src="images/logo.png"></a>
+            <nav>
+                <ul class="desktop-menu">
+                    <li><a href="">ABOUT ME</a></li>
+                    <li><a id="about-me" href="#my-projects">PROJECTS</a></li>
+                </ul>
+            </nav>
+            <div id="hamburger-menu" onclick="openMobileMenu(this)">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+                <ul class="responsive-menu">
+                    <br>
+                    <br>
+                    <li><a id="about-me" href="">ABOUT ME</a></li>
+                    <li><a href="#my-projects">PROJECT</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="home-container">
+            <div class="home-text">
+                <div class="home-data">
+                    <p class="home-title">Hi, I'm Nikoleta</p>
+                    <p class="home-subtitle">Media design student at Fontys</p>
+                    <p class="home-description">Motivated and dedicated, always searching for new things to learn and
+                        try.
+                    </p>
+                </div>
+                <div class="home-social">
+                    <a href="https://git.fhict.nl/I477363/challenges_programming" target="_blank"
+                        class="home-social-icon">
+                        <i class="uil uil-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nikoleta-dimitrova-1b6a501ba/" target="_blank"
+                        class="home-social-icon">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+            </div>
+                <div class="home-content">
+                    <div class="home-img">
+                        <svg class="home-blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path
+                                    d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path
+                                    d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                                <image class="home-blob-img" x="-60" y="-250" xlink:href="images/me.png" />
+                            </g>
+                        </svg>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="my-projects">
+        <h1>My projects</h1>
+        <p id="intro">
+            Explore my projects with one click.
+        </p>
+        <div class="row">
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Calculator-Table/" target="_blank">
+                    <h3>Working Calculator</h3>
+                    <img src="images/calculator.jpg" alt="calculator">
+                    <p>First Challenge. I used JS for the first time and I managed to make it functional.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Polaroid/" target="_blank">
+                    <h3>Polaroid Camera</h3>
+                    <img src="images/polaroid.png" alt="camera">
+                    <p>Second Challenge. It can also make a photo when you click on the red button. Enjoy your photo
+                        shoot.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Kirby/" target="_blank">
+                    <h3>Kirby</h3>
+                    <img src="images/kirby.png" alt="kirby">
+                    <p>Third Challenge. It was very fun to make and I learned how to use z-index, skew, rotate and to
+                        position everything properly. Bonus: it can jump.
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Breaking_News/" target="_blank">
+                    <h3>Breaking News</h3>
+                    <img src="images/breaking.png" alt="">
+                    <p>Forth Challenge. I make an intro for breaking news. It starts with a counter, then a breaking
+                        news pops us with a globe around it and there is also a disclaimer. I learned how to use
+                        keyframes.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Clock/" target="_blank">
+                    <h3>Real-time clock</h3>
+                    <img src="images/clock.png" alt="">
+                    <p>I made a clock showing the exact time. It helped me learn how to use arrays and functions in JS.
+                        It was from the advanced category in the challenges.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/JS-toUpperCase/" target="_blank">
+                    <h3>Letter Capitalize</h3>
+                    <img src="images/upper.jpg" alt="">
+                    <p>A challenge from the beginner category. It takes the first letter of each work you write in the
+                        text box and capitalised it.
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Cartoon/" target="_blank">
+                    <h3>Cartoon</h3>
+                    <img src="images/cartoon.jpg" alt="">
+                    <p>Inspired by Phineas and Ferb. Consists of 4 scenes followed by a certain sound. I explored
+                        functions more and used audio files for the first time.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Piano/" target="_blank">
+                    <h3>Scary Piano</h3>
+                    <img src="images/piano.jpg" alt="">
+                    <p>This piano has scary sounds and works if you press the letters from the keyboard. Be careful, do
+                        it at your own risk.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Cube/" target="_blank">
+                    <h3>Spinning Cube</h3>
+                    <img src="images/cube.jpg" alt="">
+                    <p>A Minecraft cube that spins. Made with three.js. I followed a tutorial but changed some things to
+                        make it look more appealing.
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Accordion/" target="_blank">
+                    <h3>Accordion</h3>
+                    <img src="images/accordion.jpg" alt="">
+                    <p>I made an accordion for my favourite artist. It opens smoothly and shows more information based
+                        on the thing you click.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Drum-kit/" target="_blank">
+                    <h3>Drum Kit</h3>
+                    <img src="images/drum.jpg" alt="">
+                    <p>Have fun with your own drum kit. I used switch statement to toggle between the sounds.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Game/" target="_blank">
+                    <h3>Death Battle</h3>
+                    <img src="images/game.jpg" alt="">
+                    <p>I needed to explore classes in JS, so I used them to store the information of the players. Two
+                        villians battle against each other until one dies.
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Chat/" target="_blank">
+                    <h3>Working Chat</h3>
+                    <img src="images/chat.jpg" alt="">
+                    <p>This was my first work with node.js. Open two tabs (or more) in your browser and start chatting
+                        with yourself. For now it works only locally. You need to first start node.js with npm run
+                        devStart in the console.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Hanoi/" target="_blank">
+                    <h3>Hanoi</h3>
+                    <img src="images/hanoi.jpg" alt="">
+                    <p>I found this challenge quite hard. I wanted to make it without using jquery, but in the end a
+                        tutorial from youtube helped me make it functional.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Pie-Chart/" target="_blank">
+                    <h3>Pie Chart</h3>
+                    <img src="images/pie.jpg" alt="pie">
+                    <p>I used Chart.js library to make it. I wanted to read more about it and explore the different
+                        funtions I can use. You can delete options from the pie with one click on them.
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="group-col">
+                    <h3>Google Extension</h3>
+                    <img src="images/extension.jpg" alt="">
+                    <p>
+                        I made a google extension that takes a picture from a website and tranforms it into a picture of a swag doggo. Enjoy!
+                    </p>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Counter/" target="_blank">
+                    <h3>Word Counter</h3>
+                    <img src="images/counter.jpg" alt="">
+                    <p>I decided to create an app that counts the words and letters based on the user's input.</p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Quotes" target="_blank">
+                    <h3>Quote Generator</h3>
+                    <img src="images/quotes.jpg" alt="">
+                    <p>I did this because I wanted to test how APIs work and learn how to fetch data using Ajax. It also has a voice memo where you are able to hear the quote and copy it to clipboard.</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Logo" target="_blank">
+                    <h3>Dynamic Logo</h3>
+                    <img src="images/logo.jpg" alt="">
+                    <p>Firstly, I drew the logo in Adobe Illustrator and imported it as svg in HTML. Then I played with fill and stroke and made some animations for a better effect.
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="http://i477363.hera.fhict.nl/Countdown" target="_blank">
+                    <h3>Countdown Time</h3>
+                    <img src="images/countdown.jpg" alt="">
+                    <p> For this countdown I explored a new library called Flipclock.js. I used prewritten code to make it functional and changed some of the properties in there. It shows the user the current time.  
+                    </p>
+                </a>
+            </div>
+            <div class="group-col">
+                <a href="#" target="_blank">
+                    <h3>Still in progress</h3>
+                    <img src="images/loading.png" alt="">
+                    <p>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
